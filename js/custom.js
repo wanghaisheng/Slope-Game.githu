@@ -67,10 +67,10 @@ function liveSearch(){
                 var item = listGame[j];
                 var img = "";
                 if(item.domain == 1){
-                    img = `https://slope-game.github.io/file/${item.slug}/logo.png`;
+                    img = `https://slope-unblocked-games.silkandpepper.com/file/${item.slug}/logo.png`;
                 } else if(item.domain == 2) {
                   
-                    img = `https://slope-game.github.io/rungame/${item.slug}/logo.png`;
+                    img = `https://slope-unblocked-games.silkandpepper.com/rungame/${item.slug}/logo.png`;
                     if(item.slug == "roblox-unblocked"){
                       img = item.img;
                     }
@@ -86,7 +86,7 @@ function liveSearch(){
                 } else if(item.domain == 6) {
                   img = `https://ubg77.github.io/edit/${item.slug}/logo.png`;
                 } else if(item.domain == 7) {
-                  img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
+                  img = `https://slope-unblocked-games.silkandpepper.com/newgame/${item.slug}/logo.png`;
                 } else if(item.domain == 8) {
                   img = `https://ubg77.github.io/updatefaqs/${item.slug}/logo.png`;
                 }else if(item.domain == 9) {
@@ -142,9 +142,9 @@ function liveSearch(){
           var item = listGame[j];
               var img = "";
               if(item.domain == 1){
-                  img = `https://slope-game.github.io/file/${item.slug}/logo.png`;
+                  img = `https://slope-unblocked-games.silkandpepper.com/file/${item.slug}/logo.png`;
               } else if(item.domain == 2) {
-                  img = `https://slope-game.github.io/rungame/${item.slug}/logo.png`;
+                  img = `https://slope-unblocked-games.silkandpepper.com/rungame/${item.slug}/logo.png`;
               } else if(item.domain == 3) {
                 img = `https://ubg77.github.io/game131022/${item.slug}/logo.png`;
               } else if(item.domain == 4) {
@@ -157,7 +157,7 @@ function liveSearch(){
               } else if(item.domain == 6) {
                 img = `https://ubg77.github.io/edit/${item.slug}/logo.png`;
               } else if(item.domain == 7) {
-                img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
+                img = `https://slope-unblocked-games.silkandpepper.com/newgame/${item.slug}/logo.png`;
               } else if(item.domain == 8) {
                 img = `https://ubg77.github.io/updatefaqs/${item.slug}/logo.png`;
               }else if(item.domain == 9) {
@@ -233,12 +233,12 @@ function open_fullscreen() {
 function loadGA(){
     
     var  r = document.createElement("script");
-  r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-BF3BWX3NND"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
+  r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=GTM-K4ZXKK42"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
   
-      gtag('config', 'G-BF3BWX3NND');
+      gtag('config', 'GTM-K4ZXKK42');
   
     },document.head.appendChild(r);
     
@@ -348,9 +348,9 @@ function loadData(){
             
             var img = "";
             if(item.domain == 1){
-                img = `https://slope-game.github.io/file/${item.slug}/logo.png`;
+                img = `https://slope-unblocked-games.silkandpepper.com/file/${item.slug}/logo.png`;
             } else if(item.domain == 2) {
-                img = `https://slope-game.github.io/rungame/${item.slug}/logo.png`;
+                img = `https://slope-unblocked-games.silkandpepper.com/rungame/${item.slug}/logo.png`;
             } else if(item.domain == 3) {
               img = `https://ubg77.github.io/game131022/${item.slug}/logo.png`;
             } else if(item.domain == 4) {
@@ -363,7 +363,7 @@ function loadData(){
             } else if(item.domain == 6) {
               img = `https://ubg77.github.io/edit/${item.slug}/logo.png`;
             } else if(item.domain == 7) {
-              img = `https://slope-game.github.io/newgame/${item.slug}/logo.png`;
+              img = `https://slope-unblocked-games.silkandpepper.com/newgame/${item.slug}/logo.png`;
             } else if(item.domain == 8) {
               img = `https://ubg77.github.io/updatefaqs/${item.slug}/logo.png`;
             }else if(item.domain == 9) {
