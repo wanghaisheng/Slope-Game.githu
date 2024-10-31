@@ -233,12 +233,12 @@ function open_fullscreen() {
 function loadGA(){
     
     var  r = document.createElement("script");
-  r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=GTM-K4ZXKK42"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
+  r.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-Z4YCC1QFZP"), r.setAttribute("type", "text/javascript"), r.setAttribute("crossOrigin", "anonymous"),  r.onload = function (){
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
   
-      gtag('config', 'GTM-K4ZXKK42');
+      gtag('config', 'G-Z4YCC1QFZP');
   
     },document.head.appendChild(r);
     
